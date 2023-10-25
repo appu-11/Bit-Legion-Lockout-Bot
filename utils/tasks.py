@@ -240,7 +240,7 @@ async def update_problemset(client):
     mapping = {}
 
     con_cnt, prob_cnt = 0, 0
-
+    print("DONE data")
     try:
         for contest in contest_list:
             mapping[contest['id']] = contest['name']
